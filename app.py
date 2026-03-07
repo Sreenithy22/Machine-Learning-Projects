@@ -11,7 +11,10 @@ sentiment_model = pipeline(
 st.title("🛒 E-Commerce Review Analysis using LLM")
 
 st.write("Enter a customer review and the model will analyze its sentiment.")
-
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Merged GitHub repo with local project"
+git push -u origin main
 review = st.text_area("Enter Product Review")
 
 if st.button("Analyze Review"):
